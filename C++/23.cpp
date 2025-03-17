@@ -2,12 +2,12 @@
 using namespace std;
 
 #define pi 3.14159
-int areaOfCircle(int x)
+float areaOfCircle(float x)
 {
     return pi*x*x;
 }
 
-int areaOfTriangle(int x, int y)
+float areaOfTriangle(float x, float y)
 {
     return 0.5*x*y;
 }
@@ -19,7 +19,8 @@ int areaOfRectangle(int x, int y)
 
 int main()
 {
-    int r,l,b,h,bs;
+    int l,b,h,bs;
+    float r;
     cout<<"Enter the Radius: ";
     cin>>r;
     cout<<"Enter the Height of Triangle:";
