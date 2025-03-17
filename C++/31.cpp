@@ -14,7 +14,7 @@ inline int cube(int x){
 int main()
 {
     int c,d,z;
-    cout<<"Enter the to find cube: ";
+    cout<<"Enter the number to find cube: ";
     cin>>c;
 
     cout<<"Enter two numbers to find product: ";
