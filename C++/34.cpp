@@ -10,7 +10,7 @@ float area(float radiusOfCircle)
     return pi*radiusOfCircle*radiusOfCircle;
 }
 
-int area(int lenghtRectangle, int breadthRectangle)
+double area(double lenghtRectangle, double breadthRectangle)
 {
     return lenghtRectangle*breadthRectangle;
 }
@@ -22,7 +22,7 @@ float area(float baseTriangle, float heightTriangle)
 
 int main()
 {
-    int rc, lr, br, bt, ht;
+    float rc, lr, br, bt, ht;
 
     cout<<"Enter the Radius of Circle: ";
     cin>>rc;
