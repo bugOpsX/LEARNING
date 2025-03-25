@@ -70,26 +70,3 @@ int main() {
 
     return 0;
 }
-
-
-// #include<iostream>
-// using namespace std;
-
-// class Fraction{
-//     private: 
-
-//     int numerator;
-//     int denomenator;
-
-//     public:
-//     Fraction(int nr = 0, int dr = 1){
-//         if(dr == 0){
-//             cout<<"Denominator cannot be ZERO!, Initilazing to 1"<<endl;
-//             dr = 1;
-//         }
-//         numerator = nr;
-//         denomenator = dr;
-//     }
-
-
-// };
