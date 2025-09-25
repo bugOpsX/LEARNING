@@ -50,10 +50,45 @@ Each language has its own folder:
      python program_name.py
      ```
 
-## Future Plans
-- Add more programming languages.
-- Build larger projects combining different concepts.
-- Document each program with explanations.
+## Contribution Guide
+I welcome contributions from the community! Here’s how you can contribute:
 
-Happy Coding! 🚀
+- **Fork the Repository**
+Click the Fork button at the top-right corner of this page to create a copy of the repository in your GitHub account.
+
+- **Clone Your Fork**
+  ```
+  git clone https://github.com/your-username/LEARNING.git
+   ```
+  
+- **Create a Branch**
+  Create a new branch for your contribution:
+```
+git checkout -b feature/your-feature-name
+```
+
+- **Make Your Changes**
+Add new programs, scripts, or improvements.
+Follow the folder structure (C++/PYTHON).
+Add *comments* and make your code clean and readable.
+
+- **Commit Your Changes**
+```
+git add .
+git commit -m "Add your message here"
+```
+
+- **Push to Your Branch**
+  ```
+  git push origin feature/your-feature-name
+  ```
+
+  - **Create a Pull Request**
+
+  Go to your forked repository on GitHub.
+  Click Compare & Pull Request.
+  Provide a description of your changes and submit the PR.
+
+*Your contribution will be reviewed and merged if everything looks good! 🎉
+Happy Coding!* 🚀
 
