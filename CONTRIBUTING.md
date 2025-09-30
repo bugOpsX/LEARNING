@@ -26,6 +26,97 @@ This guide explains how to set up locally, find something to work on, and submit
 
 Keep PRs small and focused. Focused PRs are much easier to review and merge.
 
+### Step-by-step (with commands for Windows PowerShell)
+
+1. Clone your fork and set the upstream remote (original repo):
+
+```powershell
+# Replace <your-username> with your GitHub username
+git clone https://github.com/<your-username>/LEARNING.git
+cd LEARNING
+
+# Add the original repository as upstream to keep your fork in sync
+git remote add upstream https://github.com/bugOpsX/LEARNING.git
+git remote -v
+```
+
+2. Create a feature branch:
+
+```powershell
+# Use a short, clear branch name
+git checkout -b feature/your-feature-name
+```
+
+3. Make changes:
+
+- Add files to the correct folder (e.g., `C++/`, `PYTHON/`).
+- Follow naming and header comment conventions (see sections below).
+
+4. Test locally (examples):
+
+```powershell
+# C++ (from the C++ folder)
+g++ program_name.cpp -o program_name
+./program_name.exe
+
+# Python (from the PYTHON folder)
+python program_name.py
+```
+
+5. Stage and commit:
+
+```powershell
+# Stage specific files (preferred) or everything
+git add path\to\your\file
+# or: git add .
+
+git commit -m "Add <short description> (language/folder)"
+```
+
+6. Push your branch to your fork:
+
+```powershell
+git push -u origin feature/your-feature-name
+```
+
+7. Open a Pull Request:
+
+- Go to your fork on GitHub and click “Compare & pull request”, or
+- Visit: https://github.com/bugOpsX/LEARNING/compare and select your branch.
+- In the PR description, explain what you changed and why, and link the issue (e.g., Closes #123).
+
+### Keep your fork in sync (recommended)
+
+Before starting new work, update your local `main` (or `master`) from the original repo and refresh your branch:
+
+```powershell
+# Fetch latest changes from upstream
+git fetch upstream
+
+# If your default branch is main (common)
+git checkout main
+git pull upstream main
+git push origin main
+
+# If your default branch is master (older repos)
+# git checkout master
+# git pull upstream master
+# git push origin master
+
+# Update your feature branch
+git checkout feature/your-feature-name
+git merge main
+# or: git rebase main
+```
+
+### PR checklist (quick)
+
+- [ ] Files live in the correct language folder and are named clearly.
+- [ ] Program runs locally (compile C++ / run Python) and shows expected output.
+- [ ] Short header comment with description, approach, and example I/O.
+- [ ] Commit message is clear and in imperative mood.
+- [ ] PR description links the related issue and explains the change.
+
 ## Project Structure & Conventions
 
 - Place code in the correct language folder (e.g., `C++/`, `PYTHON/`). If adding a new language, follow the same pattern with a top‑level folder.
