@@ -4,7 +4,7 @@ def divide_numbers(a, b):
     """
     try:
         result = a / b
-    except ZeroDivisionError:
+    except ZeroDivisionError: 
         print("Error: Cannot divide by zero!")
         return None
     else:
