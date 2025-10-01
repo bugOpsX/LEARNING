@@ -20,6 +20,7 @@ This file lists everyone who has contributed to the **LEARNING** repository.
 |------|----------------|-------------|
 | Sumant Kumar | [GitHub](https://github.com/bugOpsX) | Maintainer, added issues & guided contributors |
 | Abhishek Kumar | [Github](https://github.com/Abhishek-Kumar498) | contributor | added files |
+| Dhruv Kumar | [Github](https://github.com/FuturistForever) | Added DSA algorithms in C |
 
 ---
 
