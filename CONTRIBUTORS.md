@@ -18,9 +18,8 @@ This file lists everyone who has contributed to the **LEARNING** repository.
 
 | Name | GitHub Profile | Contribution |
 |------|----------------|-------------|
-| John Doe | [GitHub](https://github.com/johndoe) | Added sorting algorithms in Python |
-| Jane Smith | [GitHub](https://github.com/janesmith) | Fixed typos in README.md |
 | Sumant Kumar | [GitHub](https://github.com/bugOpsX) | Maintainer, added issues & guided contributors |
+| Abhishek Kumar | [Github](https://github.com/Abhishek-Kumar498) | contributor | added files |
 
 ---
 
